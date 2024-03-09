@@ -30,9 +30,12 @@ class _HomePageState extends State<HomePage> {
         title: const Text('Title'),
       ),
       body: Container(
-        alignment: Alignment.center,
-        child: const Text("Test2"),
-      ),
+          alignment: Alignment.center,
+          child: const Column(
+            children: [
+              Text("Test2"),
+            ],
+          )),
     );
   }
 }
