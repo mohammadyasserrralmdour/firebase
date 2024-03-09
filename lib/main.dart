@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),);
+      home: HomePage(),
+    );
   }
 }
 
@@ -25,6 +26,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container(alignment: Alignment.center,child: const Text("Test1"),);
+    return Container(
+      alignment: Alignment.center,
+      child: const Text("Test1"),
+      
+    );
   }
 }
