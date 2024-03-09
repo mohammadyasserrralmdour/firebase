@@ -26,7 +26,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    int y=0;
+    int x=0;
     return Container(
       alignment: Alignment.center,
       child: const Text("Test1"),
