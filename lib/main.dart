@@ -10,6 +10,7 @@ class MyAppGit extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
@@ -23,20 +24,18 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Title'),
-      ),
-      body: Container(
-          alignment: Alignment.center,
-          child: const Column(
-            children: [
-              Text("Test2"),
-            ],
-          )),
+    int y=0;
+    int z=0;
+    int x=0;
+    return Container(
+      alignment: Alignment.center,
+      child: const Text("Test merge"),
+      
     );
   }
+  getData(){}
   setData(){}
 }
